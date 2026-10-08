@@ -1,5 +1,5 @@
 
-# Nextflow Pipeline for GATK SNP Calling
+# Nextflow Pipeline for Running HaploVar - A hapotyping Tool which Calculates Haplotypes and Formats them for GWAS or Genomic Selection Analyses
 
 ## What does this pipeline do?
 
