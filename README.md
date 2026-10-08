@@ -122,7 +122,7 @@ The purpose of the parameters is to make the pipline more flexible, so that the 
 
 `minFreq` - Is a parameter used by `HaploVar`. Haplotype variants present in fewer individuals than minFreq (default = 4) are removed.
 
-`format` - `HaploVar` can save the output into 6 different formats. For a detailed guide on these 6 formats please see see Suplementary Note 1 from the manuscript (MacNish et al., 2025) or HaploVar's [tutorial](https://htmlpreview.github.io/?https://github.com/TessaMacNish/HaploVar/blob/main/vignettes/introduction.html) The default format is format 6, which saves the haplotypes as a VCF which can be used for GWAS. 
+`format` - `HaploVar` can save the output into 6 different formats. For a detailed guide on these 6 formats please see see Suplementary Note 1 from the manuscript (MacNish et al., 2025) or HaploVar's [tutorial](https://htmlpreview.github.io/?https://github.com/TessaMacNish/HaploVar/blob/main/vignettes/introduction.html). The default format is format 6, which saves the haplotypes as a VCF which can be used for GWAS. 
 
 `file_type` - This will determine if you write a csv file (for formats 1-5) or a VCF file (for format 6)
 
