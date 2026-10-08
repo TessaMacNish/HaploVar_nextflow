@@ -18,14 +18,19 @@ tree
 └── vcf_prep
 ```
 2) You will need 4 files downloaded into your work directory:
-3) 
+ 
    a) input.vcf -  this is the VCF file you want to calculate haplotypes for.
-   
+
+
    b) main.nf - is the processes that nextflow will run and is available in this github page.
-   
+
+
    c) nextflow.config - tells nextflow the time and memory requirements for each process and is also avaiable on this github page.
-   
+
+
    d) regions.txt - HaploVar calculates haplotypes per chromosome, so the VCF needs to be split into seperate chromosomes. regions.txt is the file to specify how your chromosomes are named. An example regions.txt is below:
+
+   
 ``` bash
 A01
 A02
